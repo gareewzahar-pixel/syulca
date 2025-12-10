@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Страница 2 – Minecraft</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0b1020;
+            color: #ffffff;
+        }
+
+        .page {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #161b30;
+            border-radius: 12px;
+            padding: 20px 30px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.6);
+        }
+
+        .page-number {
+            font-size: 20px;
+            font-weight: bold;
+            color: #ffd54f;
+            margin-bottom: 10px;
+        }
+
+        .title {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #4fc3f7;
+        }
+
+        .content {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+
+        .text {
+            flex: 2;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .game-image {
+            flex: 1;
+            background: #000;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+
+        .game-image img {
+            width: 100%;
+            display: block;
+        }
+
+        @media (max-width: 700px) {
+            .content {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="page-number">2 Страница:</div>
+        <div class="title">Minecraft</div>
+        <div class="content">
+            <div class="text">
+                Minecraft — это популярная компьютерная игра в жанре «песочницы», 
+                разработанная шведским программистом Маркусом Перссоном и компанией Mojang Studios. 
+                Игра впервые была выпущена в 2011 году и быстро стала одной из самых узнаваемых игр в мире. 
+                В Minecraft игроки могут исследовать процедурно генерируемый мир, добывать ресурсы, 
+                строить здания, сражаться с мобами и создавать собственные приключения. 
+                Игра доступна на множестве платформ, включая Windows, macOS, консоли и мобильные устройства.
+            </div>
+            <div class="game-image">
+                <img src="https://avatars.mds.yandex.net/i?id=4331473421a20ab5c33fb811979b08834bff57f8-5661421-images-thumbs&n=13" alt="Minecraft">
+            <a class="button" href="index.html">следующая страница :</a>
+            <a class="button" href="rndex.html">вернутся</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

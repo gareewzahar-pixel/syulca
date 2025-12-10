@@ -1,0 +1,181 @@
+.games {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+}
+
+.card {
+    height: 150px;
+    border-radius: 12px;
+    display: flex;
+    align-items: end;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.card a {
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+:root {
+    --fortnite-size: 150px;   
+}
+
+.fortnite {
+    width: var(--fortnite-size);
+    height: var(--fortnite-size);
+    background-image: url("https://avatars.mds.yandex.net/i?id=afe74fdce0b86d189e1c878e971c9cd98175b3ad-2352943-images-thumbs&n=13");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+
+:root {
+    --robl-size: 150px;   
+}
+
+.roblox {
+    width: var(--robl-size);
+    height: var(--robl-size);
+    background-image: url("https://avatars.mds.yandex.net/i?id=9c3b6777fbeaee247349d26d9fb2099940440aee-5424730-images-thumbs&n=13");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+:root {
+    --mi-size: 150px;   
+}
+
+.minecraft {
+    width: var(--mi-size);
+    height: var(--mi-size);
+    background-image: url("https://avatars.mds.yandex.net/i?id=842e76ce949fa4c0df5d586075f99958_l-8502968-images-thumbs&n=13");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+:root {
+    --rocket-size: 150px;   
+}
+
+.rocket {
+    width: var(--rocket-size);
+    height: var(--rocket-size);
+    background-image: url("https://avatars.mds.yandex.net/i?id=d364e5c0066f74a5d632fcfde9834497949f8ccf-4033943-images-thumbs&n=13");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+:root {
+    --for-size: 150px;   
+}
+
+.forza {
+    width: var(--for-size);
+    height: var(--for-size);
+    background-image: url("https://avatars.mds.yandex.net/i?id=6d453d56fe4752f023e695450dd53b5cf99bb406-16473773-images-thumbs&n=13");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+:root {
+    --apex-size: 150px;   
+}
+
+.apex {
+    width: var(--apex-size);
+    height: var(--apex-size);
+    background-image: url("https://avatars.mds.yandex.net/i?id=bfd2256eddd59646869bb37c61693ea3-5419265-images-thumbs&n=13");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+:root {
+    --over-size: 150px;   
+}
+
+.overwatch {
+    width: var(--over-size);
+    height: var(--over-size);
+    background-image: url("https://avatars.mds.yandex.net/i?id=4eca61793c042a6a376d5a951e149d1b35442b0d-8000733-images-thumbs&n=13");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+:root {
+    --gta-size: 150px;   
+}
+
+.gta {
+    width: var(--gta-size);
+    height: var(--gta-size);
+    background-image: url("https://avatars.mds.yandex.net/i?id=45c078bca4dc74002446c6628334099c7161afc5-4417533-images-thumbs&n=13");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.button {
+    color: red;
+    /* цвет текста */
+    font-size: 10px;
+    /* размер текста */
+    text-decoration: none;
+    /* убирает подчеркивание */
+    background-color: rgb(196, 255, 58);
+    /* цвет фона */
+    padding: 20px 20px; 
+    /* внутренние отступы */
+    border-radius: 20px;
+    /* скругление углов */
+    display: inline-block;
+    border: 2px solid red;
+    /* рамка */
+    margin: 20px 20px;
+    /* внешние отступы */
+    transition: background-color 0.3s, color 0.3s;
+    /* Плавный переход */
+}
+
+.button:hover {
+    /* эффект при наведении */
+    background-color: red;
+    color: white;
+}
+
+
+.button:active {
+    /* эффект при нажатии */    
+    background-color: rgb(0, 0, 0);
+    color: red;
+}
+
+body {
+    background: linear-gradient(135deg, #1818a3, #3b0263, #9100ff);
+    background-size: 400% 400%;
+    animation: gradientMove 12s ease infinite;
+    color: white;
+}
+
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
